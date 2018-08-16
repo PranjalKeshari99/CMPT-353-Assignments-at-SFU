@@ -1,0 +1,5 @@
+
+1. Numpy vs. Pandas
+ Numpy is just a c array in python and it is reminiscent to Matlab coding style. It is useful for storing storing and manipulating data. Pandas are more pretty and are reminiscent of SQL tables. Personally I found Numpy easier to use because the date_to_month function gave me trouble for a bit in trying to figure out how to use a Series data type.
+
+2. From the notebook: "10 loops, best of 3: 23.3 ms per loop" for pandas and "1 loop, best of 3: 656 ms per loop" for loops. Pandas runs faster because it uses Numpy (C-string) which is faster. And there are no python for loops.

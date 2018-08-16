@@ -1,0 +1,3 @@
+1. The values that are the result of data['timestamp']*fit.slope + fit.intercept is simply a linear fit to the the twitter ratings. It is the equation y = mx + b, where y is the estimated value, m is the slope and b is the intercept. These values are calculated via linear regression.
+
+2. This produces a fit line on the graph because created_at and timestamp are different values for the same thing. Timestamp is used in the linregress function because it is a float value and this is needed in order to calculate values for slope and intercept.
