@@ -1,0 +1,15 @@
+1. Which of the four transforms suggested got you the closest to satisfying the assumptions of a T-test?
+
+The square root option.
+
+2. I gave imprecise English translations of what the by-week test, and the Mann-Whitney test were actually testing. Do the same for the original T-test, and for the transformed data T-test. That is, describe what the conclusion would be if you could reject the null hypothesis in those tests.
+
+The p-value for the original t-test is less than 0.05 so the null hypothesis is rejected and the data is not a normal distribution. Likewise for the other transformations.
+
+3. Of the four approaches, which do you think actually does a better job of getting an answer for the original question: “are there a different number of Reddit comments posted on weekdays than on weekends?” Briefly explain why. (It's not clear to me that there is a single correct answer to this question.)
+
+The transformed square root data seemed to be the best my opinion.
+
+4. When are more Reddit comments posted in /r/canada, on average weekdays or weekends?
+
+The mean amount of tweets for weekdays is more than on weekends, however the amount there is more data for the weekdays. With all the testing there's is no way to prove that one or the other has more tweets. 

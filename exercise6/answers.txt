@@ -1,0 +1,13 @@
+1. In the A/B test analysis, do you feel like we're p-hacking? How comfortable are you coming to a conclusion at p < 0.05?
+
+We did the chi2 test and the mannwhitney test. The p-value was mostly above 0.05 so we can reject the hypothesis that new interface is used more frequently. We are not p-hacking.
+
+
+2. If we had done T-tests between each pair of sorting implementation results, how many tests would we run? If we looked for p < 0.05 in them, what would the probability be of having all conclusions correct, just by chance? That's the effective p-value of the many-T-tests analysis. [We could have done a Bonferroni correction when doing multiple T-tests, which is a fancy way of saying “for ,m tests, look for significance at alpha/m”.]
+
+To do a t-test between each pair of sorting algorithms you would need 21 tests. The effective alpha would be 0.659 which is very very bad. For 21 tests we should look for p < 0.05/21 = 0.0024.
+
+
+3.Give a ranking of the sorting implementations by speed, including which ones could not be distinguished. (i.e. which pairs could our experiment not conclude had different running times?)
+
+From fastest to slowest: partition_sort, qs1, qs4 or qs5, qs2 or qs1, merge1. The ones which are not distinguishable are qs4 with qs5 and qs2 with qs1. In the graph from doing postdoc analysis these are the ones with overlap.

@@ -1,0 +1,8 @@
+1. Looking at your dog-rates.ipynb, do you think the residual are close-enough to being normal to look at the OLS p-value? Can you reasonably conclude that the ratings are increasing?
+
+Yes the residuals seem reasonably normal and the p-value is very small so it is reasonable to conclude the ratings are increasing.
+
+
+2. Do you think that the new “better” prediction is letting the Kalman filter do a better job capturing the true signal in the noise?
+
+Yes it looks better having the prediction for the next value in the filter.
