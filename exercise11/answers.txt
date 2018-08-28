@@ -1,0 +1,12 @@
+
+1. In your reddit_relative.py, what intermediate results did you .cache()? Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+
+I cached the variables I reused like the data frame with the average score of subreddits. Otherwise spark recalculates these variables. If I hadn't cached intermediate values the run time would be longer.
+
+
+2. How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+
+Without broadcast(): 33s
+With broadcast(): 11s
+
+So 3 times faster. Not bad.

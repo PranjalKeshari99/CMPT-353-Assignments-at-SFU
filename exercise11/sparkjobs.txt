@@ -1,0 +1,14 @@
+
+spark-submit *.py in out
+
+export PYSPARK_PYTHON=python
+export PATH=${PATH}:/Users/philipleblanc/Projects/CMPT353/spark-2.3.1-bin-hadoop2.7/bin
+
+ssh gateway.sfucloud.ca
+
+Use Cyberduck for sftp
+
+Module load 353
+
+Yarn frontend: http://localhost:8088
+HDFS frontend: http://localhost:50070
